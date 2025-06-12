@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+  margin: 20px;
+  padding: 15px;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #06b6d4, #2563eb); /* cyan-500 to blue-600 */
+  min-height: 100vh;
+  overflow: hidden;
+  color: rgb(245, 238, 238);
+}
