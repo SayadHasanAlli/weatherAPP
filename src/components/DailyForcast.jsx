@@ -13,7 +13,7 @@ const DailyForcast = ({search, LocationNotFound}) => {
    
   const forecast = async () =>{
      try{
-      const forcastData = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=b6a5a19abfcf454593e33955251106&q=${search}&days=10&aqi=no&alerts=no`)
+      const forcastData = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b6a5a19abfcf454593e33955251106&q=${search}&days=10&aqi=no&alerts=no`)
       const data = await forcastData.json();
       // console.log(data)
       //  console.log(data.forecast.forecastday.map((i) =>({
