@@ -61,7 +61,7 @@ function App() {
 
       try {
         setLoading(true)
-        const res = await fetch(`http://api.weatherapi.com/v1/search.json?key=b6a5a19abfcf454593e33955251106&q=${coords}`);
+        const res = await fetch(`https://api.weatherapi.com/v1/search.json?key=b6a5a19abfcf454593e33955251106&q=${coords}`);
         const data = await res.json();
 
         if (data.length > 0) {
